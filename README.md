@@ -1,1 +1,2 @@
-# go-sample-app
+# hello-go
+
