@@ -9,7 +9,7 @@ import (
 )
 
 // global variables
-var defaultMsg string = getEnv("HELLO_MSG", "sunshine")
+var defaultMsg string = getEnv("HELLO_MSG", "world")
 
 func handler(w http.ResponseWriter, r *http.Request) {
     log.Print("Request received")
