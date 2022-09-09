@@ -1,5 +1,3 @@
-# Dockerfile (docker build . -f Dockerfile ...)
-
 FROM golang
 WORKDIR /workspace
 COPY go.mod .
